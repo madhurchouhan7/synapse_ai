@@ -65,7 +65,8 @@ class WelcomeScreen extends StatelessWidget {
               ),
 
               // get started button
-              SizedBox(height: screenWidth * 0.2),
+              // SizedBox(height: screenWidth * 0.2),
+              Spacer(),
 
               ElevatedButton(
                 onPressed: () {
