@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:synapse_ai/features/welcome/screen/welcome_screen.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -11,10 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(title: const Text('My Flutter App')),
-        body: const Center(child: Text('Hello, World!')),
-      ),
+      home: const WelcomeScreen(),
     );
   }
 }
